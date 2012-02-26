@@ -1,13 +1,16 @@
 package com.innovail.trouble.android.core;
 
-import android.app.Activity;
+import com.badlogic.gdx.backends.android.AndroidApplication;
+
+import com.innovail.trouble.core.JavaTroubleApplication;
+
 import android.os.Bundle;
 
-public class JavaTroubleAndroidActivity extends Activity {
+public class JavaTroubleAndroidActivity extends AndroidApplication {
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        initialize (new JavaTroubleApplication (), false);
     }
 }
