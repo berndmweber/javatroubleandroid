@@ -1,14 +1,27 @@
 <?xml version="1.0" ?> 
 <settings>
     <game>
-        <numberofplayers default="2" />
-        <tokens>
-            <players number="2">4</players>
-            <players number="3">4</players>
-            <players number="4">4</players>
-            <players number="5">3</players>
-            <players number="6">2</players>
-        </tokens>
+        <numberofplayers default="2" minimum="4" />
+        <players number="2">
+            <tokens number="4" />
+            <spots normal="9" />
+        </players>
+        <players number="3">
+            <tokens number="4" />
+            <spots normal="9" />
+        </players>
+        <players number="4">
+            <tokens number="4" />
+            <spots normal="9" />
+        </players>
+        <players number="5">
+            <tokens number="3" />
+            <spots normal="7" />
+        </players>
+        <players number="6">
+            <tokens number="2" />
+            <spots normal="5" />
+        </players>
         <playerdefaults>
             <player number="1">
                 <color r="1.0f" g="0.0f" b="0.0f" a="0.0f" />
