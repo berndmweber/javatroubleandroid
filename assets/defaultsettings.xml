@@ -1,5 +1,12 @@
 <?xml version="1.0" ?> 
 <settings>
+
+    <application>
+        <menu type="main">
+            <font is_internal="true" file="pf_tempesta_seven_1.fnt" image="pf_tempesta_seven_1_0.png" />
+        </menu>
+    </application>
+
     <game>
         <numberofplayers default="2" minimum="4" />
         <players number="2">
