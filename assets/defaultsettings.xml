@@ -4,6 +4,7 @@
     <application>
         <menu type="main">
             <font is_internal="true" file="pf_tempesta_seven_1.fnt" image="pf_tempesta_seven_1_0.png" />
+            <background is_internal="true" file="trouble_background.png" width="1024" height="1024" />
         </menu>
     </application>
 
