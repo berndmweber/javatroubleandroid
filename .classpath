@@ -5,9 +5,9 @@
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry kind="lib" path="libs/gdx-backend-android.jar" sourcepath="libs/gdx-backend-android-sources.jar"/>
-	<classpathentry kind="lib" path="/JavaTroubleCore/libs/gdx.jar" sourcepath="/JavaTroubleCore/libs/gdx-sources.jar">
+	<classpathentry kind="lib" path="/JavaTroubleCore/libs/gdx.jar">
 		<attributes>
-			<attribute name="javadoc_location" value="http://libgdx.l33tlabs.org/docs/api/"/>
+			<attribute name="javadoc_location" value="file:/home/bweber/Downloads/libgdx-0.9.3/docs/api/"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/JavaTroubleCore"/>
