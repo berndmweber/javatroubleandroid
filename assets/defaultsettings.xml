@@ -11,7 +11,10 @@
             </logo>
             <entry name="settings" is_internal="true" file="mm_settings.obj" />
             <entry name="newGame" is_internal="true" file="mm_new_game.obj" />
-            </menu>
+        </menu>
+        <game>
+            <background is_internal="true" file="game_basic_bg.png" width="1024" height="1024" />
+        </game>
     </application>
 
     <game>
