@@ -1,11 +1,17 @@
-<?xml version="1.0" ?> 
+<?xml version="1.0" encoding="utf-8"?> 
 <settings>
 
     <application>
         <menu type="main">
             <font is_internal="true" file="pf_tempesta_seven_1.fnt" image="pf_tempesta_seven_1_0.png" />
+            <copyright>nVisionary, Inc. (c) 2012 - All rights reserved.</copyright>
             <background is_internal="true" file="trouble_background.png" width="1024" height="1024" />
-        </menu>
+            <logo is_internal="true" file="trouble_logo_3d.obj">
+                <color r="0.0f" g="0.0f" b="0.2f" a="1.0f" />
+            </logo>
+            <entry name="settings" is_internal="true" file="mm_settings.obj" />
+            <entry name="newGame" is_internal="true" file="mm_new_game.obj" />
+            </menu>
     </application>
 
     <game>

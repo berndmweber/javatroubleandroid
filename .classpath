@@ -10,6 +10,6 @@
 			<attribute name="javadoc_location" value="file:/home/bweber/Downloads/libgdx-0.9.3/docs/api/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/JavaTroubleCore"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/JavaTroubleCore"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
