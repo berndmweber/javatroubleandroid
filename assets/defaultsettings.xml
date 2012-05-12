@@ -63,7 +63,7 @@
             <color r="0.0f" g="0.0f" b="1.0f" a="0.5f" />
         </spots>
         <tokens is_internal="true" file="trouble_token_simple.obj" />
-        <dice is_internal="true" file="die.obj" />
+        <dice number="1" is_internal="true" file="die.obj" texture_file="dice_face_all.png" texture_color_format="RGB565" />
     </game>
 
 </settings>
