@@ -64,7 +64,7 @@
         </spots>
         <tokens is_internal="true" file="trouble_token_simple.obj" />
         <dice number="1" is_internal="true" file="die.obj" texture_file="dice_face_all.png" texture_color_format="RGB565" />
-        <turnout value="6" />
+        <turnout value="6" retries="3" />
     </game>
 
 </settings>
