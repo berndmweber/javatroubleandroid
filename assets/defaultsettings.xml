@@ -14,6 +14,9 @@
         </menu>
         <game>
             <background is_internal="true" file="game_basic_bg.png" width="1024" height="1024" />
+            <backarrow is_internal="true" file="back_arrow.obj">
+                <color r="0.2f" g="0.2f" b="0.2f" a="1.0f" />
+            </backarrow>
         </game>
     </application>
 
