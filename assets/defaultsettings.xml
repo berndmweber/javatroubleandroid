@@ -71,8 +71,12 @@
         <spots is_internal="true" file="trouble_spot.obj">
             <color r="0.0f" g="0.0f" b="1.0f" a="0.5f" />
         </spots>
-        <tokens is_internal="true" file="trouble_token_simple.obj" />
-        <dice number="1" is_internal="true" file="die.obj" texture_file="dice_face_all.png" texture_color_format="RGB565" />
+        <tokens is_internal="true" file="trouble_token_simple.obj">
+            <sound is_internal="true" file="scratch_wood05.ogg" />
+        </tokens>
+        <dice number="1" is_internal="true" file="die.obj" texture_file="dice_face_all.png" texture_color_format="RGB565">
+            <sound is_internal="true" file="33335__jcbatz__clatter1.ogg" />
+        </dice>
         <turnout value="6" retries="3" />
     </game>
 
