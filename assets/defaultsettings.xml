@@ -9,8 +9,12 @@
             <logo is_internal="true" file="trouble_logo_3d.obj">
                 <color r="0.0f" g="0.0f" b="0.2f" a="1.0f" />
             </logo>
-            <entry name="settings" is_internal="true" file="mm_settings.obj" />
-            <entry name="newGame" is_internal="true" file="mm_new_game.obj" />
+            <entry index="0" name="newGameMenu" is_internal="true" file="mm_new_game.obj" />
+            <entry index="1" name="settingsMenu" is_internal="true" file="mm_settings.obj" />
+        </menu>
+        <menu type="newGame">
+            <entry index="0" name="settings" is_internal="true" file="mm_settings.obj" />
+            <entry index="1" name="newGame" is_internal="true" file="mm_new_game.obj" />
         </menu>
         <game>
             <background is_internal="true" file="game_basic_bg.png" width="1024" height="1024" />
