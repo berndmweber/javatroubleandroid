@@ -2,6 +2,9 @@
 <settings>
 
     <application>
+        <assets>
+            <asset name="selectionArrow" is_internal="true" file="ngm_players.obj" />
+        </assets>
         <menu type="main">
             <font is_internal="true" file="pf_tempesta_seven_1.fnt" image="pf_tempesta_seven_1_0.png" />
             <copyright>nVisionary, Inc. (c) 2012 - All rights reserved.</copyright>
@@ -13,8 +16,7 @@
             <entry index="1" name="settingsMenu" is_internal="true" file="mm_settings.obj" />
         </menu>
         <menu type="newGame">
-            <entry index="0" name="settings" is_internal="true" file="mm_settings.obj" />
-            <entry index="1" name="newGame" is_internal="true" file="mm_new_game.obj" />
+            <entry index="0" name="players" is_internal="true" file="ngm_players.obj" />
         </menu>
         <game>
             <background is_internal="true" file="game_basic_bg.png" width="1024" height="1024" />
