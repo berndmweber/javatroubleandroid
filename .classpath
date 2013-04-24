@@ -2,14 +2,12 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="src" exported="true" path="/JavaTroubleCore" combineaccessrules="false"/>
+	<classpathentry kind="output" path="bin/classes"/>
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
-	<classpathentry kind="lib" path="libs/gdx-backend-android.jar" sourcepath="libs/gdx-backend-android-sources.jar"/>
-	<classpathentry kind="lib" path="/JavaTroubleCore/libs/gdx.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="file:/home/bweber/Downloads/libgdx-0.9.3/docs/api/"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/JavaTroubleCore"/>
-	<classpathentry kind="output" path="bin/classes"/>
+	<classpathentry kind="lib" exported="true" path="/JavaTroubleCore/libs/gdx.jar" sourcepath="/JavaTroubleCore/libs/gdx-sources.jar"/>
+	<classpathentry kind="lib" exported="true" path="libs/gdx-backend-android.jar" sourcepath="libs/gdx-backend-android-sources.jar"/>
+	<classpathentry kind="lib" exported="true" path="/JavaTroubleCore/libs/bodyeditor-loader.jar" sourcepath="/JavaTroubleCore/libs/bodyeditor-loader-sources.jar"/>
+	<classpathentry kind="lib" exported="true" path="/JavaTroubleCore/libs/tween-engine-api.jar" sourcepath="/JavaTroubleCore/libs/tween-engine-api-sources.jar"/>
 </classpath>
