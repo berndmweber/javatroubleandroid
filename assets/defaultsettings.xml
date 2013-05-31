@@ -3,12 +3,12 @@
 
     <application>
         <assets>
-            <font type="mesh" is_internal="true" file="yusuke_all_single_characters.obj" image="yusuke_all_single_characters.pre" />
+            <font type="mesh" is_internal="true" file="yusuke_all_single_characters.obj" image="yusuke_all_single_characters.json" />
             <font type="bitmap" is_internal="true" file="pf_tempesta_seven_1.fnt" image="pf_tempesta_seven_1_0.png" />
             <asset name="selectionArrow" is_internal="true" file="ngm_players.obj" />
         </assets>
         <menu type="main">
-            <copyright>nVisionary, Inc. (c) 2012 - All rights reserved.</copyright>
+            <copyright>nVisionary, Inc. (c) 2013 - All rights reserved.</copyright>
             <background is_internal="true" file="trouble_background.png" width="1024" height="1024" />
             <logo is_internal="true" file="trouble_logo_3d.obj">
                 <color r="0.0f" g="0.0f" b="0.2f" a="1.0f" />
