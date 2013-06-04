@@ -3,7 +3,7 @@
 
     <application>
         <assets>
-            <font type="mesh" is_internal="true" file="yusuke_all_single_characters.obj" image="yusuke_all_single_characters.json" />
+            <font type="mesh" is_internal="true" file="yusuke_all_single_characters.obj" image="yusuke_all_single_characters.g3d" />
             <font type="bitmap" is_internal="true" file="pf_tempesta_seven_1.fnt" image="pf_tempesta_seven_1_0.png" />
             <asset name="selectionArrow" is_internal="true" file="ngm_players.obj" />
         </assets>
