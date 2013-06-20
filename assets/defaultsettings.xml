@@ -11,18 +11,20 @@
             <copyright>nVisionary, Inc. (c) 2013 - All rights reserved.</copyright>
             <background is_internal="true" file="trouble_background.png" width="1024" height="1024" />
             <logo is_internal="true" file="trouble_logo_3d.obj">
-                <color r="0.0f" g="0.0f" b="0.2f" a="1.0f" />
+                <color name="dark_blue" />
             </logo>
             <entry index="0" name="newGameMenu" text="New Game" />
             <entry index="1" name="settingsMenu" text="Settings" />
         </menu>
         <menu type="newGame">
-            <entry index="0" name="players" text="Players" />
-        </menu>
+            <entry index="0" name="players" text="Players" type="count" mincount="1" maxcount="4" />
+            <entry index="1" name="playerColor" text="Player color" type="color" />
+            <entry index="2" name="game" text="Start game" />
+            </menu>
         <game>
             <background is_internal="true" file="game_basic_bg.png" width="1024" height="1024" />
             <backarrow is_internal="true" file="back_arrow.obj">
-                <color r="0.2f" g="0.2f" b="0.2f" a="1.0f" />
+                <color name="dark_gray" />
             </backarrow>
         </game>
     </application>
@@ -51,22 +53,22 @@
         </players>
         <playerdefaults>
             <player number="1">
-                <color r="0.3f" g="0.0f" b="0.0f" a="1.0f" />
+                <color name="dark_red" />
             </player>
             <player number="2">
-                <color r="0.0f" g="0.3f" b="0.0f" a="1.0f" />
+                <color name="dark_green" />
             </player>
             <player number="3">
-                <color r="0.3f" g="0.3f" b="0.0f" a="1.0f" />
+                <color name="dark_yellow" />
             </player>
             <player number="4">
-                <color r="0.0f" g="0.3f" b="0.3f" a="1.0f" />
+                <color name="dark_cyan" />
             </player>
             <player number="5">
-                <color r="0.3" g="0.0f" b="0.3f" a="1.0f" />
+                <color name="dark_magenta" />
             </player>
             <player number="6">
-                <color r="0.3f" g="0.3f" b="0.3f" a="1.0f" />
+                <color name="dark_gray" />
             </player>
         </playerdefaults>
         <playerannouncement is_internal="true" file="trouble_player.obj">
@@ -76,7 +78,7 @@
             <number value="3" is_internal="true" file="trouble_three.obj" />
         </playerannouncement>
         <spots is_internal="true" file="trouble_spot.obj">
-            <color r="0.0f" g="0.0f" b="0.3f" a="0.5f" />
+            <color name="dark_clear_blue" />
         </spots>
         <tokens is_internal="true" file="trouble_token_simple.obj">
             <sound is_internal="true" file="scratch_wood05.ogg" />
