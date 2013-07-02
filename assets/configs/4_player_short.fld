@@ -1,0 +1,12 @@
+P|4|2
+H|1|B1  H|1|B2  E   E   N|F1    T|2|G1|F2   S|2|G2  E   E   H|2|G1  H|2|K2
+H|1|A5  H|1|A2  E   E   N|E1    F|2|F3  N|H3    E   E   H|2|J1  H|2|J2
+E   E   E   N|E2    E   F|2|F4  E   N|I4    E   E   E
+E   E   N|D3    E   E   F|2|F5  E   E   N|J5    E   E
+S|1|B5  N|C4    E   E   E   F|2 E   E   E   N|K5    N|K6
+T|1|A5|B6   F|1|C6  F|1|D6  F|1|E6  F|1 E   F|3 F|3|G6  F|3|H6  F|3|I6  T|3|K7|J6
+N|A6    N|A7    E   E   E   F|4 E   E   E   N|I8    S|3|J7
+E   E   N|B7    E   E   F|4|F7  E   E   N|H9    E   E
+E   E   E   N|C8    E   F|4|F8  E   N|G10   E   E   E
+H|4|B10 H|4|B11 E   E   N|D9    F|4|F9  N|G11   E   E   H|3|K10 H|3|K7
+H|4|A10 H|4|E11 E   E   S|4|E10 T|4|E11|F10 N|F11   E   E   H|3|J10 H|3|J11
