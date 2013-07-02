@@ -1,0 +1,28 @@
+# Spot definition:
+# <Type>|(<Player>|)<NextSpot>|(<NextTurnOut>|)
+# Types:
+# E: Empty
+# F: Finish Spot + Player number
+# H: Home Spot + Player number
+# N: Normal Spot
+# S: Start Spot + Player number
+# T: TurnOut Spot + Player number
+#
+# Players defined: P|<Max>|<Min>
+#
+# Field starts at A1
+#   Letters are horizontal
+#   Numbers are vertical
+#
+P|4|2
+H|1|B1      H|1|B2  E       E       N|F1    T|2|G1|F2   S|2|G2  E       E       H|2|G1  H|2|K2
+H|1|A5      H|1|A2  E       E       N|E1    F|2|F3      N|G3    E       E       H|2|J1  H|2|J2
+E           E       E       E       N|E2    F|2|F4      N|G4    E       E       E       E
+E           E       E       E       N|E3    F|2|F5      N|G5    E       E       E       E
+S|1|B5      N|C5    N|D5    N|E5    N|E4    F|2         N|H5    N|I5    N|J5    N|K5    N|K6
+T|1|A5|B6   F|1|C6  F|1|D6  F|1|E6  F|1     E           F|3     F|3|G6  F|3|H6  F|3|I6  T|3|K7|J6
+N|A6        N|A7    N|B7    N|C7    N|D7    F|4         N|G8    N|G7    N|H7    N|I7    S|3|J7
+E           E       E       E       N|E7    F|4|F7      N|G9    E       E       E       E
+E           E       E       E       N|E8    F|4|F8      N|G10   E       E       E       E
+H|4|B10     H|4|B11 E       E       N|E9    F|4|F9      N|G11   E       E       H|3|K10 H|3|K7
+H|4|A10     H|4|E11 E       E       S|4|E10 T|4|E11|F10 N|F11   E       E       H|3|J10 H|3|J11

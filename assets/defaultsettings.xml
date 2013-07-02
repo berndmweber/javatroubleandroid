@@ -17,7 +17,7 @@
             <entry index="1" name="settingsMenu" text="Settings" />
         </menu>
         <menu type="newGame">
-            <entry index="0" name="players" text="Players" type="count" mincount="1" maxcount="4" />
+            <entry index="0" name="players" text="Players" type="count" mincount="2" maxcount="4" />
             <entry index="1" name="playerColor" text="Player color" type="color" />
             <entry index="2" name="game" text="Start game" />
             </menu>
@@ -30,7 +30,7 @@
     </application>
 
     <game>
-        <numberofplayers default="2" minimum="4" />
+        <field is_internal="true" default="4_player_standard" extension="fld" />
         <players number="2">
             <tokens number="4" />
             <spots normal="9" />
